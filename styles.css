@@ -1,0 +1,19 @@
+/* Gallery container */
+.gallery { 
+  /* TODO: Create grid container*/
+  /* TODO: Make grid reponsive*/
+  /* TODO: Add space between grid items*/
+  /* TODO: Add space around grid container*/
+}
+
+/* Image styling */
+.gallery img {
+  /* TODO: Set the width of the images*/
+  /* TODO: Set the border radius*/
+  /* TODO: Set the object fit*/
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  /* TODO: Override the grid columns*/
+}
