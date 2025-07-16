@@ -1,19 +1,19 @@
 /* Gallery container */
 .gallery { 
-  /* TODO: Create grid container*/
-  /* TODO: Make grid reponsive*/
-  /* TODO: Add space between grid items*/
-  /* TODO: Add space around grid container*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
 
 /* Image styling */
 .gallery img {
-  /* TODO: Set the width of the images*/
-  /* TODO: Set the border radius*/
-  /* TODO: Set the object fit*/
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 /* Media query for smaller screens */
 @media (max-width: 600px) {
-  /* TODO: Override the grid columns*/
+  .gallery {grid-template-columns: 1fr;}
 }
